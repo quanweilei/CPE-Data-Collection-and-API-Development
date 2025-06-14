@@ -3,6 +3,8 @@ This assignment is designed to evaluate your ability to work with XML data, inte
 
 In order to run this application you must first run Step1 to parse the xml file into an xlsx file, then run Step2-3 to create a localhost database, RESTful API, and local website.
 
+Unfortunately, due to short notice of having to take this assessment, I did not have enough time to finish and implement this everything fully. 
+
 # Step 1
 This script parses a local XML file containing CPE data (version 2.3) and exports key information into an Excel spreadsheet. It uses Python’s xml.etree.ElementTree to read and navigate the XML structure, and openpyxl to generate the Excel file. The script auto-detects XML namespaces, extracts fields such as the CPE title, CPE 2.2 and 2.3 URIs, reference links, and any deprecation flags directly from the XML. Originally, the script included functionality to call the NVD API to retrieve CPE 2.3 deprecation dates, but those API calls have been commented out to avoid rate-limiting and blocking issues (I called the NVD API too frequently and got IP blocked). As a result, the “CPE 23 Deprecation Date” column in the output file will remain blank. The script produces a file named cpe_data.xlsx, which contains a structured summary of each CPE entry from the XML source. I am not very experienced with NVD API calling so I was unable to figure out how to check if the date of the CPE was deprecated (CPE 22/23 Deprecation Date).
 
