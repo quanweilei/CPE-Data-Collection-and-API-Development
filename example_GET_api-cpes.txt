@@ -1,0 +1,126 @@
+{
+    "data": [
+        {
+            "cpe_22_deprecation_date": null,
+            "cpe_22_uri": "cpe:/a:%240.99_kindle_books_project:%240.99_kindle_books:6::~~~android~~",
+            "cpe_23_deprecation_date": null,
+            "cpe_23_uri": "cpe:2.3:a:\\$0.99_kindle_books_project:\\$0.99_kindle_books:6:*:*:*:*:android:*:*",
+            "cpe_title": "$0.99 Kindle Books project $0.99 Kindle Books (aka com.kindle.books.for99) for android 6.0",
+            "id": 1,
+            "reference_links": [
+                "https://play.google.com/store/apps/details?id=com.kindle.books.for99",
+                "https://docs.google.com/spreadsheets/d/1t5GXwjw82SyunALVJb2w0zi3FoLRIkfGPc7AMjRF0r4/edit?pli=1#gid=1053404143"
+            ]
+        },
+        {
+            "cpe_22_deprecation_date": null,
+            "cpe_22_uri": "cpe:/a:%40nubosoftware%2fnode-static_project:%40nubosoftware%2fnode-static:-::~~~node.js~~",
+            "cpe_23_deprecation_date": null,
+            "cpe_23_uri": "cpe:2.3:a:\\@nubosoftware\/node-static_project:\\@nubosoftware\/node-static:-:*:*:*:*:node.js:*:*",
+            "cpe_title": "@nubosoftware/node-static Project @nubosoftware/node-static for Node.js",
+            "id": 2,
+            "reference_links": [
+                "https://www.npmjs.com/package/@nubosoftware/node-static"
+            ]
+        },
+        {
+            "cpe_22_deprecation_date": null,
+            "cpe_22_uri": "cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:-::~~~node.js~~",
+            "cpe_23_deprecation_date": null,
+            "cpe_23_uri": "cpe:2.3:a:\\@thi.ng\/egf_project:\\@thi.ng\/egf:-:*:*:*:*:node.js:*:*",
+            "cpe_title": "@thi.ng/egf Project @thi.ng/egf for Node.js",
+            "id": 3,
+            "reference_links": [
+                "https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7",
+                "https://www.npmjs.com/package/@thi.ng/egf"
+            ]
+        },
+        {
+            "cpe_22_deprecation_date": null,
+            "cpe_22_uri": "cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.1.0::~~~node.js~~",
+            "cpe_23_deprecation_date": null,
+            "cpe_23_uri": "cpe:2.3:a:\\@thi.ng\/egf_project:\\@thi.ng\/egf:0.1.0:*:*:*:*:node.js:*:*",
+            "cpe_title": "@thi.ng/egf Project @thi.ng/egf 0.1.0 for Node.js",
+            "id": 4,
+            "reference_links": [
+                "https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7",
+                "https://www.npmjs.com/package/@thi.ng/egf"
+            ]
+        },
+        {
+            "cpe_22_deprecation_date": null,
+            "cpe_22_uri": "cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.2.0::~~~node.js~~",
+            "cpe_23_deprecation_date": null,
+            "cpe_23_uri": "cpe:2.3:a:\\@thi.ng\/egf_project:\\@thi.ng\/egf:0.2.0:*:*:*:*:node.js:*:*",
+            "cpe_title": "@thi.ng/egf Project @thi.ng/egf 0.2.0 for Node.js",
+            "id": 5,
+            "reference_links": [
+                "https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7",
+                "https://www.npmjs.com/package/@thi.ng/egf"
+            ]
+        },
+        {
+            "cpe_22_deprecation_date": null,
+            "cpe_22_uri": "cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.2.1::~~~node.js~~",
+            "cpe_23_deprecation_date": null,
+            "cpe_23_uri": "cpe:2.3:a:\\@thi.ng\/egf_project:\\@thi.ng\/egf:0.2.1:*:*:*:*:node.js:*:*",
+            "cpe_title": "@thi.ng/egf Project @thi.ng/egf 0.2.1 for Node.js",
+            "id": 6,
+            "reference_links": [
+                "https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7",
+                "https://www.npmjs.com/package/@thi.ng/egf"
+            ]
+        },
+        {
+            "cpe_22_deprecation_date": null,
+            "cpe_22_uri": "cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.2.2::~~~node.js~~",
+            "cpe_23_deprecation_date": null,
+            "cpe_23_uri": "cpe:2.3:a:\\@thi.ng\/egf_project:\\@thi.ng\/egf:0.2.2:*:*:*:*:node.js:*:*",
+            "cpe_title": "@thi.ng/egf Project @thi.ng/egf 0.2.2 for Node.js",
+            "id": 7,
+            "reference_links": [
+                "https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7",
+                "https://www.npmjs.com/package/@thi.ng/egf"
+            ]
+        },
+        {
+            "cpe_22_deprecation_date": null,
+            "cpe_22_uri": "cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.0::~~~node.js~~",
+            "cpe_23_deprecation_date": null,
+            "cpe_23_uri": "cpe:2.3:a:\\@thi.ng\/egf_project:\\@thi.ng\/egf:0.3.0:*:*:*:*:node.js:*:*",
+            "cpe_title": "@thi.ng/egf Project @thi.ng/egf 0.3.0 for Node.js",
+            "id": 8,
+            "reference_links": [
+                "https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7",
+                "https://www.npmjs.com/package/@thi.ng/egf"
+            ]
+        },
+        {
+            "cpe_22_deprecation_date": null,
+            "cpe_22_uri": "cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.1::~~~node.js~~",
+            "cpe_23_deprecation_date": null,
+            "cpe_23_uri": "cpe:2.3:a:\\@thi.ng\/egf_project:\\@thi.ng\/egf:0.3.1:*:*:*:*:node.js:*:*",
+            "cpe_title": "@thi.ng/egf Project @thi.ng/egf 0.3.1 for Node.js",
+            "id": 9,
+            "reference_links": [
+                "https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7",
+                "https://www.npmjs.com/package/@thi.ng/egf"
+            ]
+        },
+        {
+            "cpe_22_deprecation_date": null,
+            "cpe_22_uri": "cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.2::~~~node.js~~",
+            "cpe_23_deprecation_date": null,
+            "cpe_23_uri": "cpe:2.3:a:\\@thi.ng\/egf_project:\\@thi.ng\/egf:0.3.2:*:*:*:*:node.js:*:*",
+            "cpe_title": "@thi.ng/egf Project @thi.ng/egf 0.3.2 for Node.js",
+            "id": 10,
+            "reference_links": [
+                "https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7",
+                "https://www.npmjs.com/package/@thi.ng/egf"
+            ]
+        }
+    ],
+    "limit": 10,
+    "page": 1,
+    "total": 50
+}
