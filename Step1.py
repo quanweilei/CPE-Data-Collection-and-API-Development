@@ -4,7 +4,7 @@ from openpyxl import Workbook
 # import time 
 # import urllib.parse 
 
-file = "official-cpe-dictionary_v2.3.xml"
+file = "test_input.xml"
 # api_key = ""  
 
 # Parse local XML file

@@ -48,6 +48,13 @@ with app.app_context():
     else:
         print("Database already populated.")
 
+@app.template_filter('datetimeformat')
+def datetimeformat(value, format='%b %d, %Y'):
+    try:
+        return datetime.strptime(value[:10], '%Y-%m-%d').strftime(format)
+    except:
+        return value
+
 @app.route("/api/cpes/search", methods=["GET"])
 def search_cpes():
     cpe_title = request.args.get("cpe_title", "").strip()
