@@ -31,22 +31,22 @@ CPE 2.2 Deprecated (true/false from XML, displayed as "Yes"/"No")
 
 CPE 2.3 Deprecation Date (if found in <cpe-23:deprecation> element)
 
-This version no longer relies on the NVD API; instead, deprecation flags and dates are parsed directly from the XML source.
-
 The resulting file is saved as cpe_data.xlsx and will be used as input in Step 2.
 
 Step 2: Data Persistence and Model Definition
 A Flask app uses SQLAlchemy to define a schema and import the CPE data from Excel into a local SQLite database (cpe_data.db).
 
 SQLAlchemy Model Schema:
-Column Name	Data Type	Description
-id	Integer (PK)	Auto-increment primary key
-title	String	CPE product title (from XML <title>)
-cpe_22_uri	String	CPE 2.2 URI from <cpe-item>
-cpe_23_uri	String	CPE 2.3 URI from <cpe-23-item>
-references	String	Comma-separated URLs
-deprecated_22	Boolean	True if deprecated, False otherwise
-deprecation_date_23	String	Deprecation date from <cpe-23:deprecation>, or blank if not deprecated
+| Column Name           | Data Type    | Description                                                              |
+| --------------------- | ------------ | ------------------------------------------------------------------------ |
+| `id`                  | Integer (PK) | Auto-increment primary key                                               |
+| `title`               | String       | CPE product title (from XML `<title>`)                                   |
+| `cpe_22_uri`          | String       | CPE 2.2 URI from `<cpe-item>`                                            |
+| `cpe_23_uri`          | String       | CPE 2.3 URI from `<cpe-23-item>`                                         |
+| `references`          | String       | Comma-separated URLs                                                     |
+| `deprecated_22`       | Boolean      | True if deprecated, False otherwise                                      |
+| `deprecation_date_23` | String       | Deprecation date from `<cpe-23:deprecation>`, or blank if not deprecated |
+
 
 If the database already exists, the app will reuse the existing file instead of reloading data.
 
