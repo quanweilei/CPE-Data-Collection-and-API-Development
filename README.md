@@ -1,4 +1,4 @@
-CPE-Data-Collection-and-API-Development
+# CPE-Data-Collection-and-API-Development
 This project evaluates your ability to process XML data, persist it in a database, and expose it through a RESTful API with an interactive web frontend. It consists of three main steps:
 
 XML parsing and Excel export (Step 1)
@@ -7,7 +7,7 @@ Flask app to store and serve CPE data (Step 2)
 
 RESTful API and interactive UI with search/filter/pagination (Step 3)
 
-Setup Instructions
+# Setup Instructions
 Run Step1.py to parse the official-cpe-dictionary_v2.3.xml and export to cpe_data.xlsx, you will need to manually change the file name in Step1.py, currently is set to a test input file that is provided on github as well.
 official-cpe-dictionary_v2.3 must be downloaded separately and entered into the local directory of step1 to run it on the official dictionary. 
 
@@ -16,7 +16,7 @@ display the cached previous xml data.
 
 Open your browser at http://localhost:5000 to view the frontend UI.
 
-Step 1: XML Parsing and Excel Export
+# Step 1: XML Parsing and Excel Export
 The script reads a local XML file following the CPE Dictionary 2.3 schema and extracts the following for each <cpe-item>:
 
 CPE Title (English only)
@@ -33,7 +33,7 @@ CPE 2.3 Deprecation Date (if found in <cpe-23:deprecation> element)
 
 The resulting file is saved as cpe_data.xlsx and will be used as input in Step 2.
 
-Step 2: Data Persistence and Model Definition
+# Step 2: Data Persistence and Model Definition
 A Flask app uses SQLAlchemy to define a schema and import the CPE data from Excel into a local SQLite database (cpe_data.db).
 
 SQLAlchemy Model Schema:
@@ -50,7 +50,7 @@ SQLAlchemy Model Schema:
 
 If the database already exists, the app will reuse the existing file instead of reloading data.
 
-Step 3: RESTful API Implementation
+# Step 3: RESTful API Implementation
 The application exposes RESTful endpoints:
 
 /api/cpes
@@ -71,10 +71,10 @@ deprecation_date (returns entries deprecated on or before this date in either ve
 
 Both endpoints return JSON data to support integration into the frontend and other API consumers.
 
-Frontend UI
+# Frontend UI
 The frontend, built with Bootstrap 5 and Jinja2, renders the CPE entries in a styled, responsive HTML table.
 
-Features:
+# Features:
 Truncated Titles and URIs with tooltips
 
 Reference links: shows first two, then displays a +X more link that opens a tooltip-style popover
@@ -99,5 +99,5 @@ Adjustable pagination options
 
 Clear feedback for missing results
 
-Final Notes
+# Final Notes
 This project provides complete end-to-end functionality using only the provided XML source file.
