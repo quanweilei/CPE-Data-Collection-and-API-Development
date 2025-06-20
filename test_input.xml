@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cpe-list xmlns="http://cpe.mitre.org/dictionary/2.0" xmlns:cpe-23="http://cpe.mitre.org/dictionary/cpe-dictionary_2.3">
+  <cpe-item name="cpe:/a:short:entry:1" deprecated="true" deprecation_date="2024-01-01T00:00:00Z">
+    <title xml:lang="en-US">Short Entry</title>
+    <references>
+      <reference href="https://short.example.com">Product</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:short:entry:1:*:*:*:*:*:*:*">
+      <cpe-23:deprecation date="2024-01-01T00:00:00Z">
+        <cpe-23:deprecated-by name="cpe:2.3:a:replacement:*:*:*:*:*:*:*" type="NAME_CORRECTION"/>
+      </cpe-23:deprecation>
+    </cpe-23:cpe23-item>
+  </cpe-item>
+  <cpe-item name="cpe:/a:long:title:test">
+    <title xml:lang="en-US">Very Long CPE Title That Should Be Truncated In The UI Grid To Test Tooltip And Truncation Overflow Behavior</title>
+    <references>
+      <reference href="https://example1.com">Product</reference>
+      <reference href="https://example2.com">Product</reference>
+      <reference href="https://example3.com">Product</reference>
+      <reference href="https://example4.com">Product</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:long:title:test:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:two:refs" deprecated="true" deprecation_date="2022-05-03T00:00:00Z">
+    <title xml:lang="en-US">Has Two References</title>
+    <references>
+      <reference href="https://ref1.com">Product</reference>
+      <reference href="https://ref2.com">Product</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:two:refs:*:*:*:*:*:*:*">
+      <cpe-23:deprecation date="2022-05-03T00:00:00Z">
+        <cpe-23:deprecated-by name="cpe:2.3:a:replacement:*:*:*:*:*:*:*" type="NAME_CORRECTION"/>
+      </cpe-23:deprecation>
+    </cpe-23:cpe23-item>
+  </cpe-item>
+  <cpe-item name="cpe:/a:single:ref">
+    <title xml:lang="en-US">Single Reference Only</title>
+    <references>
+      <reference href="https://one-link.com">Product</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:single:ref:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:no:ref">
+    <title xml:lang="en-US">No References</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:no:ref:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:deprecated:nodate" deprecated="true">
+    <title xml:lang="en-US">Deprecated with No Deprecation Date</title>
+    <references>
+      <reference href="https://depr.com">Product</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:deprecated:nodate:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:not:deprecated">
+    <title xml:lang="en-US">Not Deprecated</title>
+    <references>
+      <reference href="https://nodepr.com">Product</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:not:deprecated:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:future:deprecated" deprecated="true" deprecation_date="2030-12-31T00:00:00Z">
+    <title xml:lang="en-US">Deprecated with Future Date</title>
+    <references>
+      <reference href="https://future.com">Product</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:future:deprecated:*:*:*:*:*:*:*">
+      <cpe-23:deprecation date="2030-12-31T00:00:00Z">
+        <cpe-23:deprecated-by name="cpe:2.3:a:replacement:*:*:*:*:*:*:*" type="NAME_CORRECTION"/>
+      </cpe-23:deprecation>
+    </cpe-23:cpe23-item>
+  </cpe-item>
+</cpe-list>

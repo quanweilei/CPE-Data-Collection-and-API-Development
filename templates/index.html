@@ -72,7 +72,7 @@
                         <span class="text-muted">None</span>
                     {% endif %}
                 </td>
-                <td>{{ c.deprecated_22 or "N/A" }}</td>
+                <td>{{ 'Yes' if c.deprecated_22 else 'No' }}</td>
                 <td>{{ c.deprecation_date_23 or "N/A" }}</td>
             </tr>
             {% endfor %}
